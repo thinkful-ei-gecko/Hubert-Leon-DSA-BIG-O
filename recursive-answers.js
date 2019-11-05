@@ -129,7 +129,7 @@ between itself and one. The factorial of 5 is equal to 5 * 4 * 3 * 2 * 1 = 120
 Input: 5
 Output: 120
 */
-//Complexity: Linear O(n)
+//Complexity: Factorial O(!n)
 function factorial(n) {  
   // Base Case - when n is equal to 0, we stop the recursion
   if (n === 0) {
@@ -153,7 +153,7 @@ Input: 7
 Output: 13
 */
 
-//Complexity: Linear O(n)
+//Complexity: Exponential O(2^n)
 function fibonacci(n) {
   // Base case
   if (n <= 0) {
@@ -277,7 +277,7 @@ Input:
 Output: 
 */
 
-//Complexity: Polynomial (Quadratic) O(n^2)
+//Complexity: Factorial O(!n)
 function anagrams(prefix, str){
   if(str.length <= 1){
       console.log(`The anagram is ${prefix}${str}`);
@@ -366,7 +366,7 @@ let organization = {
 }}};
 */
 
-//Complexity: 
+//Complexity: Linear O(n)
 function traverseA(data, depth = 0) {
   let indent = " ".repeat(depth * 4);
   Object.keys(data).forEach(key => {
@@ -387,6 +387,7 @@ function traverseB(node, indent=0) {
 // input: 5
 //output: 101
 
+// Complexity: Logarithmic O(log(n))
 function binaryRep(input){
   if(input<=0){
       return '';
