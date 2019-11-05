@@ -31,7 +31,7 @@ This is a logarithmic time algorithm O(log(n)) because we cut the input size in 
 Therefore, the bigger the input, the smaller proportion of the actual input your program has to run.
 
 ## 9. Random element
-This is a constant time algorithm O(n) because no matter the size of the input, it will always take the same amount of time
+This is a constant time algorithm O(1) because no matter the size of the input, it will always take the same amount of time
 to complete.
 
 ## 10. What Am I?

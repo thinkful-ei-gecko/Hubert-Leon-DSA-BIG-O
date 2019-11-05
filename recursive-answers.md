@@ -1,0 +1,11 @@
+ 1: Complexity: Linear O(n)
+ 2: Complexity: Linear O(n)
+ 3: Complexity: Linear O(n)
+ 4: Complexity: Linear O(n)
+ 5: Complexity: Linear O(n)
+ 6: Complexity: Linear O(n)
+ 7: Complexity: Linear O(n)
+ 8: Complexity: Polynomial (Quadratic) O(n^2)
+ 9: Complexity: Polynomial (Quadratic) O(n^2)
+ 10: Complexity: Polynomial (Quadratic) O(n^2)
+ 
